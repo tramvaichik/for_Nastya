@@ -1,0 +1,88 @@
+.body {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)),
+        url(/assets/images/background1.jpeg);
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgba(236, 206, 206, 0.603);
+    display: flex;
+    border: 3px solid rgb(31, 8, 8);
+    width: 87%;
+    margin: 2%;
+    padding: 1vw;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+}
+
+.avatar {
+    width: 65vh;
+    padding: 1vw;
+}
+
+.desc {
+    width: 65vh;
+    display: grid;
+    justify-content: center;
+    padding: 1%;
+}
+
+.title {
+    font-family: 'Trebuchet MS',
+        'Lucida Sans Unicode',
+        'Lucida Grande',
+        'Lucida Sans',
+        Arial,
+        sans-serif;
+    font-size: 2em;
+    font-style: italic;
+    text-align: center;
+    color: rgb(21, 21, 46);
+}
+
+.text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-style: italic;
+    text-align: center;
+    color: rgb(21, 21, 46);
+}
+
+.list {
+    font-family: Cambria,
+        Cochin,
+        Georgia,
+        Times,
+        'Times New Roman',
+        serif;
+    font-size: larger;
+    font-style: italic;
+    list-style: none;
+}
+
+.link {
+    color: rgb(37, 3, 11);
+    text-decoration: none;
+}
+
+.list li {
+    padding: 1%;
+}
+
+.list li:before {
+    padding-right: 8px;
+    font-weight: bold;
+    color: #1d0404;
+    content: "\2714";
+    transition-duration: 0.3s;
+}
+
+.list li:hover:before {
+    color: #700367;
+    content: "\2714";
+}
