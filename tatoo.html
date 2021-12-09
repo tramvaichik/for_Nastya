@@ -6,13 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/style/normalize.css">
-    <link rel="stylesheet" href="assets/styles/tatoo.css">
     <link rel="shortcut icon" href="https://image.flaticon.com/icons/png/512/2484/2484679.png" type="image/svg">
-    <title> </title>
+    <link rel="stylesheet" href="/assets/styles/tatoo.css">
+    <title> Тату-работы </title>
 </head>
 
-<body>
+<body class="body">
+    <h1 class="heading">
+        Примеры работ
+    </h1>
 
+    <div class="conteiner">
+        <div class="conteiner__tatoo">
+            <button class="tatoo__btn__prev" onclick="tatooImgPrev()" id="btnPrev">&lsaquo;</button>
+            <img src="./assets/images/tatoo/anchor_t.jpeg" alt="tatoo" class="tatoo" id="tatoo">
+            <button class="tatoo__btn__next" onclick="tatooImgNext()" id="btnNext">&rsaquo;</button>
+        </div>
+    </div>
+    </div>
+    <script src="./assets/scripts/tatoo.js"></script>
 </body>
 
 </html>

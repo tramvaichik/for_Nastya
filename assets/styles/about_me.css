@@ -1,6 +1,6 @@
 .body {
     background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)),
-        url(/assets/images/background1.jpeg);
+        url(/assets/images/backround/background1.jpeg);
     background-size: cover;
     display: grid;
     justify-content: center;

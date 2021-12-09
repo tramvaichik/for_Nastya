@@ -6,38 +6,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/style/normalize.css">
-    <link rel="stylesheet" href="assets/styles/index.css">
     <link rel="shortcut icon" href="https://image.flaticon.com/icons/png/512/2484/2484679.png" type="image/svg">
-    <link rel="stylesheet" type="text/css" href="glider.css">
+    <link rel="stylesheet" href="/assets/styles/foto.css">
     <title> Фото-работы </title>
 </head>
 
-<body>
-    <div class="gallery">
-        <div class="glider-contain">
-            <div class="glider">
+<body class="body">
+    <h1 class="heading">
+        Примеры работ
+    </h1>
 
-                <div class="wedding_photo">
-
-                </div>
-
-                <div>your content here</div>
-
-                <div>your content here</div>
-
-                <div>your content here</div>
-
+    <div class="conteiner">
+        <div class="conteiner__photo">
+            <div class="photo__people">
+                <button class="photo__btn__prev" onclick="peopleImgPrev()" id="btnPrev">&lsaquo;</button>
+                <img src="./assets/images/people_photo/honeycomb.jpeg" alt="honeycomb" class="people" id="people">
+                <button class="photo__btn__next" onclick="peopleImgNext()" id="btnNext">&rsaquo;</button>
             </div>
-
-            <button aria-label="Previous" class="glider-prev">«</button>
-            <button aria-label="Next" class="glider-next">»</button>
-            <div role="tablist" class="dots"></div>
+            <div class="photo__family">
+                <button class="photo__btn__prev" onclick="familyImgPrev()" id="btnPrev">&lsaquo;</button>
+                <img src="./assets/images/family_photo/family.jpeg" alt="family" class="family" id="family">
+                <button class="photo__btn__prev" onclick="familyImgNext()" id="btnNext">&rsaquo;</button>
+            </div>
+            <div class="photo__food">
+                <button class="photo__btn__prev" onclick="foodImgPrev()" id="btnPrev">&lsaquo;</button>
+                <img src="./assets/images/food_photo(vegan)/food.jpeg" class="food" id="food">
+                <button class="photo__btn__next" onclick="foodImgNext()" id="btnNext">&rsaquo;</button>
+            </div>
+            <div class="photo__wedding">
+                <button class="photo__btn__prev" onclick="weddingImgPrev()" id="btnPrev">&lsaquo;</button>
+                <img src="./assets/images/wedding_photo/wedding1.jpeg" alt="wedding" class="wedding" id="wedding">
+                <button class="photo__btn__next" onclick="weddingImgNext()" id="btnNext">&rsaquo;</button>
+            </div>
+            <div class="photo__underwater">
+                <button class="photo__btn__prev" onclick="underwaterImgPrev()" id="btnPrev">&lsaquo;</button>
+                <img src="./assets/images/underwater_photo/blue_dress.jpeg" alt="underwater" class="underwater"
+                    id="underwater">
+                <button class="photo__btn__next" onclick="underwaterImgNext()" id="btnNext">&rsaquo;</button>
+            </div>
         </div>
     </div>
-
-
-
-    <script src="glider.js"></script>
+    </div>
+    <script src="./assets/scripts/foto.js"></script>
 </body>
 
 </html>
