@@ -1,81 +1,77 @@
 .body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(/assets/images/backround/background4.jpeg);
-    background-size: cover;
-    display: grid;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/images/backround/background4.jpeg);
+  background-size: cover;
+  display: grid;
 }
 
 .heading {
-    text-align: center;
-    font-family: 'Trebuchet MS',
-        'Lucida Sans Unicode',
-        'Lucida Grande',
-        'Lucida Sans',
-        Arial,
-        sans-serif;
-    font-size: 2em;
-    font-style: italic;
-    color: rgb(21, 21, 46);
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 2em;
+  font-style: italic;
+  color: #15152e;
 }
 
-.container{
-    display: flex;
+.container {
+  display: flex;
 }
 
-.conteiner__photo{
-    display: grid;
-    grid-template-columns: 3fr 3fr 3fr;
-    grid-template-rows: 4fr;
+.conteiner__photo {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  grid-template-rows: 4fr;
 }
+
 .photo__people,
 .photo__family,
 .photo__food,
 .photo__wedding,
-.photo__underwater{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.photo__underwater {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .people,
 .family,
-.food{
-    margin: 5px;
-    width: 50%;
-    border-radius: 10px;
-    border: 2px solid black;
+.food {
+  margin: 5px;
+  width: 50%;
+  border-radius: 10px;
+  border: 2px solid black;
 }
 
 .underwater,
-.wedding{
-    margin: 5px;
-    width: 75%;
-    border-radius: 10px; 
-    border: 2px solid rgb(255, 255, 255);
-} 
+.wedding {
+  margin: 5px;
+  width: 75%;
+  border-radius: 10px;
+  border: 2px solid white;
+}
 
 .photo__btn__prev,
 .photo__btn__next {
-    border:none;
-    background-color:transparent;
-    color: rgb(255, 255, 255);
-    font-size: 3em;
-    font-weight: 700;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 3em;
+  font-weight: 700;
 }
 
 .photo__btn__prev:hover {
-    color: rgba(59, 224, 230, 0.589);
+  color: rgba(59, 224, 230, 0.589);
 }
 
 .photo__btn__prev:active {
-    background:rgba(0, 0, 0, 0.151);
-    border-radius: 50%;
+  background: rgba(0, 0, 0, 0.151);
+  border-radius: 50%;
 }
+
 .photo__btn__next:hover {
-    color: rgba(59, 224, 230, 0.589);
+  color: rgba(59, 224, 230, 0.589);
 }
 
 .photo__btn__next:active {
-    background:rgba(0, 0, 0, 0.151);
-    border-radius: 50%;
-}
-
+  background: rgba(0, 0, 0, 0.151);
+  border-radius: 50%;
+}/*# sourceMappingURL=foto.css.map */
